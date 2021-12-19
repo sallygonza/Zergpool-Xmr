@@ -1,0 +1,2 @@
+# Zergpool-Xmr
+Xmr
