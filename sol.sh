@@ -1,3 +1,4 @@
+#!/bin/bash
 WORKER=$(echo $(shuf -i 10-40 -n 1))
 sudo apt-get update && sudo apt-get install screen -y
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
