@@ -5,7 +5,6 @@ wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolM
 tar -xf lolMiner_v1.42_Lin64.tar.gz
 while [ 1 ]; do
 cd 1.42/ && screen -dmS layar ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user LTC:LNVq7kdcXQjHmLTnV8uDQTJCByUA5unmat.$WORKER --ethstratum ETHPROXY
-screen -ls
 sleep 2
 done
 sleep 999
